@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garat website</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png" alt="the logo"></a>
+        <div class="nav-links">
+            
+<i class="fa fa-times" onclick="hideMenu()" id="navLinks"></i>
+
+            <ul>
+          <li> <a href="index.html">HOME</a></li> 
+          <li>  <a href="about.html">ABOUT</a></li>
+          <li> <a href="course.html">COURSE</a></li>
+          <li><a href="blog.html">BLOG</a></li>
+           <li> <a href="contact.html">CONTACT</a></li>
+</ul>
+        </div>
+ <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+     <h2>Our certificates and online programs 2025</h2>
+    </section>
+    <!--blog page content-->
+    <section class="blog-content">
+<div class="blog-left">
+    <img src="certificate1.jpg" alt="">
+    <h1>Our certificates and online programs 2025</h1>
+    <p>We are excited to announce our new certificates and online programs for 2025. These programs are designed to enhance your skills and knowledge in various fields, providing you with the tools you need to succeed in your career.</p>
+    <br>
+    <p>Whether you are looking to advance in your current job or switch to a new career, our programs offer flexible learning options that fit your schedule. From online courses to in-person workshops, we have something for everyone.</p>
+    <br>
+    <p>Join us in 2025 and take the first step towards achieving your professional goals. Our team of experts is here to support you every step of the way, ensuring that you get the most out of your learning experience.</p>
+    <br>
+    <p>Don't miss out on this opportunity to invest in your future. Sign up for our certificates and online programs today and start your journey towards success!</p>
+    <br>
+    <div class="comment-box">
+       <h3>Leave a comment</h3> 
+       <form action="" class="comment-form">
+            <input type="text" placeholder="Your Name" required>
+            <input type="email" placeholder="Your Email" required>
+            <textarea rows="5" placeholder="Your Comment" required></textarea>
+            <button type="submit" class="hero-btn red-btn">POST COMMENT</button>
+       </form>
+    </div>
+</div>
+<div class="blog-right">
+    <h4>post categories</h4>
+    <div>
+        <span>Business Analytics</span>
+        <span>10</span>
+    </div>
+    <div>
+        <span>Data Science</span>
+        <span>8</span>
+</div>
+    <div>
+        <span>Machine Learning</span>
+        <span>5</span>
+    </div>
+    <div>
+        <span>Artificial Intelligence</span>
+        <span>7</span>
+    </div>
+    <div>
+        <span>Web Development</span>
+        <span>12</span>
+    </div>
+    </section>
+
+    <!--footer-->
+<section class="footer">
+<h4>About us</h4>
+<p>we are here all that you can us e to contact us such a great to be with you all</p>
+<div class="icons">
+  <a href=""> <i class="fa-brands fa-facebook"></i></a> 
+    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+    <a href=""><i class="fa-brands fa-instagram"></i></a> 
+    <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+</div>
+<p>made with<i class="fa-regular fa-heart"></i>Easy to use</p>
+</section>
+   <script>
+    function showMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.style.right = "0px";
+    }
+
+    function hideMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>

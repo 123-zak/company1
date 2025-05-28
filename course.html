@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Garat website</title>
+    <link rel="stylesheet" href="style.css">
+ <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <section class="sub-header">
+    <nav>
+        <a href="index.html"><img src="logo.png" alt="the logo"></a>
+        <div class="nav-links">
+            
+<i class="fa fa-times" onclick="hideMenu()" id="navLinks"></i>
+
+            <ul>
+          <li> <a href="index.html">HOME</a></li> 
+          <li>  <a href="about.html">ABOUT</a></li>
+          <li> <a href="services.html">COURSE</a></li>
+           <li><a href="blog.html">BLOG</a></li>
+           <li> <a href="contact.html">CONTACT</a></li>
+</ul>
+        </div>
+ <i class="fa fa-bars" onclick=showMenu()></i>
+    </nav>
+     <h1>Our courses</h1>
+    </section>
+<!--courses i provide-->
+ <section class="course">
+<h1>courses we offer</h1>
+<p>this are some of the great courses we offer in our company</p>
+<br>
+<div class="row">
+    <div class="course-col">
+        <h3>Diploma</h3>
+        <p>You are very lucky you are here because it will change the whole believe of your life</p>
+    </div>
+    <div class="course-col">
+        <h3>Degree</h3>
+        <p>You are very lucky you are here because it will change the whole believe of your life</p>
+    </div>
+    <div class="course-col">
+        <h3>Masters</h3>
+        <p>You are very lucky you are here because it will change the whole believe of your life</p>
+    </div>
+</div>
+    </section>
+    <!--facilities-->
+    <section class="facilities">
+<h1>This is our facilities</h1>
+<p>which one will you use most of your times for your work</p>
+<div class="row">
+    <div class="facilities-col">
+        <img src="library.png" alt="">
+        <h3>World class library</h3>
+        <p>Our library is equipped with the latest resources and a quiet environment to help you focus and learn.</p>
+    </div>
+     <div class="facilities-col">
+        <img src="basketball.png" alt="">
+        <h3>This is our playground</h3>
+        <p>Our library is equipped with the latest resources and a quiet environment to help you focus and learn.</p>
+    </div>
+     <div class="facilities-col">
+        <img src="cafeteria.png" alt="">
+        <h3>You can have your food and drinks here!</h3>
+        <p>Our library is equipped with the latest resources and a quiet environment to help you focus and learn.</p>
+    </div>
+</div>
+</section>
+<!--footer-->
+<section class="footer">
+<h4>About us</h4>
+<p>we are here all that you can us e to contact us such a great to be with you all</p>
+<div class="icons">
+  <a href=""> <i class="fa-brands fa-facebook"></i></a> 
+    <a href=""><i class="fa-brands fa-twitter"></i></a> 
+    <a href=""><i class="fa-brands fa-instagram"></i></a> 
+    <a href=""><i class="fa-brands fa-linkedin"></i></a> 
+</div>
+<p>made with<i class="fa-regular fa-heart"></i>Easy to use</p>
+</section>
+   <script>
+    function showMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.style.right = "0px";
+    }
+
+    function hideMenu() {
+        const navLinks = document.querySelector('.nav-links');
+        navLinks.style.right = "-200px";
+    }
+</script>
+
+</body>
+</html>
