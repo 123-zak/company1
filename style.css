@@ -16,6 +16,11 @@ nav{
     justify-content: space-between;
     align-items: center;
 }
+.logo{
+  margin: auto;
+    border-radius: 50%;
+    top: 10px;
+}
 nav img{
     width: 150px;
 
